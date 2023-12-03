@@ -1,8 +1,15 @@
-Assignments of COMP1011 (Spring 2023) 
-A great basic C++ programming course presented by Dr. Zheng Yuanqing.
+COMP1011 Spring 2023
+
+A great basic C++ programming course, presented by Dr. Zheng Yuanqing.
+
 Key points for final exam preparation: 
+
   basic sorting algorithms (selection, insertion, bubble), 
+
   linked list manipulation (add, delete, insert, print, special case processing), 
+
   array manipulation (array initialization and manipulation, cstring manipulation, array and pointers), 
+
   function calls (call-by-reference, call-by-pointer(single-level or multi-level pointers), call-by-value), 
+
   and operators (the priority and return values of operators (e.g., i++, ++i, ->, *, &, and .)).
