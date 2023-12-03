@@ -1,0 +1,27 @@
+Task 2:
+warrior = new Warrior("Thor");
+warrior.levelUp();		// Thor is now a level 2 warrior.
+
+Task 3:
+hero = new Hero("Althea");	// X! Hero is abstract. Cannot create instances from an abstract class.
+hero.levelUp();
+
+Task 4:
+warrior = new Warrior("Thor");
+healer = new Healer("Althea");
+warrior.doAction(healer);	// Thor attacks Althea. Does 5 damage.
+
+Task 5: 
+warrior = new Healer("Diana");	// X! Healer is not a subtype of Warrior
+warrior.levelUp();
+
+Task 6: 
+hero = new Warrior("Thor");
+hero.doAction(hero);		// Thor attacks Thor. Does 5 damage.
+hero = new Healer("Althea");
+hero.doAction(hero);		// Althea heals Althea by 0 points.
+
+Task 7:
+hero = new Warrior("Thor");
+warrior = hero;			// X! Type narrowing is not always safe. Needs explicit type casting.
+warrior.doAction(hero);
