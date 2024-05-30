@@ -1,0 +1,44 @@
+// This is a sample server log file. The contents below is generated during testing. All four types of response methods are included.
+
+2024-04-15 19:37:34.186461: client('127.0.0.1', 50660) requested file /index.html with response 200 OK
+2024-04-15 19:37:42.382409: client('127.0.0.1', 50660) requested file /hello_world.html with response 200 OK
+2024-04-15 19:39:12.015726: client('127.0.0.1', 50666) requested file /index.html with response 200 OK
+2024-04-15 19:39:12.143830: client('127.0.0.1', 50667) requested file /apple-touch-icon-precomposed.png with response 404 Not Found
+2024-04-15 19:39:12.144390: client('127.0.0.1', 50667) requested file /apple-touch-icon.png with response 404 Not Found
+2024-04-15 19:39:17.318680: client('127.0.0.1', 50666) requested file /hello_world.html with response 304 Not Modified
+2024-04-15 19:55:42.960856: client('127.0.0.1', 50756) requested file /index.html with response 200 OK
+2024-04-15 19:55:43.102602: client('127.0.0.1', 50757) requested file /apple-touch-icon-precomposed.png with response 404 Not Found
+2024-04-15 19:55:43.105763: client('127.0.0.1', 50757) requested file /apple-touch-icon.png with response 404 Not Found
+2024-04-15 20:31:59.395130: client('127.0.0.1', 50881) requested file /index.html with response 200 OK
+2024-04-15 20:32:04.094099: client('127.0.0.1', 50881) requested file /hello_world.html with response 304 Not Modified
+2024-04-15 20:46:21.233251: client('127.0.0.1', 50975) requested file /index.html with response 200 OK
+2024-04-15 20:46:22.970995: client('127.0.0.1', 50975) requested file /hello_world.html with response 304 Not Modified
+2024-04-15 20:53:18.838188: client('127.0.0.1', 51001) requested file /hello_world.html with response 304 Not Modified
+2024-04-15 20:53:20.855198: client('127.0.0.1', 51001) requested file /index.html with response 200 OK
+2024-04-15 20:53:22.377228: client('127.0.0.1', 51001) requested file /hello_world.html with response 200 OK
+2024-04-15 21:01:57.710444: client('127.0.0.1', 51017) requested file /index.html with response 200 OK
+2024-04-15 21:02:00.542577: client('127.0.0.1', 51017) requested file /hello_world.html with response 200 OK
+2024-04-15 21:02:00.667146: client('127.0.0.1', 51017) requested file /hello_world.png with response 200 OK
+2024-04-15 21:22:16.431106: client('127.0.0.1', 51092) requested file /index1 with response 404 Not Found
+2024-04-15 21:22:22.153118: client('127.0.0.1', 51092) requested file /index1.html with response 200 OK
+2024-04-15 21:22:25.262030: client('127.0.0.1', 51092) requested file /hello_world.html with response 200 OK
+2024-04-15 21:22:32.181790: client('127.0.0.1', 51092) requested file /hello_world.html with response 200 OK
+2024-04-15 21:29:07.246435: client('127.0.0.1', 51111) requested file /index1.html with response 200 OK
+2024-04-15 21:29:08.988025: client('127.0.0.1', 51111) requested file /hello_world.html with response 200 OK
+2024-04-15 21:29:28.799810: client('127.0.0.1', 51113) requested file /hello_world.html with response 304 Not Modified
+2024-04-15 21:32:24.520584: client('127.0.0.1', 51133) requested file /hello_world.html with response 304 Not Modified
+2024-04-15 21:37:49.755507: client('127.0.0.1', 51156) requested file /index1.html with response 200 OK
+2024-04-15 21:37:52.424633: client('127.0.0.1', 51156) requested file / with response 400 Bad Request
+2024-04-15 21:41:13.510020: client('127.0.0.1', 51165) requested file /a.html with response 404 Not Found
+2024-04-15 21:49:01.365242: client('127.0.0.1', 51215) requested file /index.html with response 200 OK
+2024-04-15 21:49:07.043045: client('127.0.0.1', 51218) requested file /index.html with response 200 OK
+2024-04-15 21:57:29.179265: client('127.0.0.1', 51249) requested file /index.html with response 200 OK
+2024-04-15 21:57:29.308974: client('127.0.0.1', 51250) requested file /apple-touch-icon-precomposed.png with response 404 Not Found
+2024-04-15 21:57:29.309539: client('127.0.0.1', 51250) requested file /apple-touch-icon.png with response 404 Not Found
+2024-04-15 21:57:30.349991: client('127.0.0.1', 51249) requested file /hello_world.html with response 200 OK
+2024-04-15 21:57:30.475020: client('127.0.0.1', 51249) requested file /hello_world.png with response 200 OK
+2024-04-15 21:57:32.158915: client('127.0.0.1', 51249) requested file /index.html with response 200 OK
+2024-04-15 21:59:11.137356: client('127.0.0.1', 51269) requested file /index.html with response 200 OK
+2024-04-15 21:59:12.364252: client('127.0.0.1', 51269) requested file /hello_world.html with response 200 OK
+2024-04-15 21:59:12.373776: client('127.0.0.1', 51269) requested file /hello_world.png with response 200 OK
+2024-04-15 22:28:56.234729: client('127.0.0.1', 51462) requested file /a.html with response 404 Not Found

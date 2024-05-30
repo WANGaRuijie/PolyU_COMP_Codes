@@ -1,0 +1,24 @@
+Quiz 4 Session 1
+---------------------
+1. Non-volatile (the data does not lose when power off)
+2. Transistor
+3. Write
+4. number of logic unit = 2^20/ 2^3 = 2^17
+   so, address line = 17
+5. Multiplexier (MUX)
+6. equation: 2^K >= M+K+1
+   M = 4  ---> minimum K = 3
+7. Contiguous: process is allocated to contiguous memeory locations
+8. seek time: the time it takes for the head to move to the right track.
+
+
+Quiz 4 Session 2
+-----------------------
+1. EEPROM
+2. SRAM
+3. Provide the information to allocate pages into memory frames
+4. 16 address lines; 16 data lines; 
+5. The time for the disk to rotate to the right sector
+6. Detect 3 errors; correct 1 error
+7. Error detection/correction code
+8. Write

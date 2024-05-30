@@ -1,0 +1,13 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[sibling distance=10em,
+every node/.style = {shape=rectangle, rounded corners,
+draw, align=center,
+top color=white, bottom color=blue!20}]]
+\node {Input Module}
+child { node {Scheduling Module}
+child { node {Output Module}}
+child { node {Analysis Module \\ \small Use and discard} } };
+\end{tikzpicture}
+\end{document}

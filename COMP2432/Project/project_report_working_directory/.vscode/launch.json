@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/Apple/Desktop/osproject/project_report",
+      "program": "/Users/Apple/Desktop/osproject/project_report/build/Debug/outDebug"
+    }
+  ]
+}

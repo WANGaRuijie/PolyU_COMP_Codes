@@ -1,0 +1,21 @@
+\contentsline {section}{\numberline {1}Abstract}{2}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{2}{section.2}%
+\contentsline {section}{\numberline {3}Scope and Concepts}{2}{section.3}%
+\contentsline {section}{\numberline {4}Scheduling Algorithms Adapted}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Smallest Remaining First (SRF)}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Earliest Due Date Priority (PR)}{6}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Smallest Global Waste (SGW)}{6}{subsection.4.3}%
+\contentsline {section}{\numberline {5}Design and Implementation}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Object-Oriented Design}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Data Structures}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}System Structure and Process Management}{9}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Inter-Process Communication}{10}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Input and Output Handling}{11}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Testing}{12}{section.6}%
+\contentsline {section}{\numberline {7}Performance Analysis}{14}{section.7}%
+\contentsline {section}{\numberline {8}Program Configuration and Execution}{16}{section.8}%
+\contentsline {section}{\numberline {9}Results Discussion}{18}{section.9}%
+\contentsline {section}{\numberline {10}Conclusion}{18}{section.10}%
+\contentsline {section}{\numberline {11}Miscellaneous}{18}{section.11}%
+\contentsline {section}{\numberline {12}Innovation Highlights}{18}{section.12}%
+\contentsline {section}{\numberline {13}Appendix}{19}{section.13}%

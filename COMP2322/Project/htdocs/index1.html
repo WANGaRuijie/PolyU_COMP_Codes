@@ -1,0 +1,95 @@
+<html> 
+<head> 
+    <link rel="icon" href="data:,"> 
+    <title>HTTP Server Test Page</title> 
+</head> 
+<body> 
+    <h1>HTTP Server Test Page</h1> 
+    COMP2322 Computer Networking<br>
+    Project: Multi-thread Web Server<br>
+    2023-04-18<br>
+
+    <p>To test <b>Request command</b></p>
+    <ul>
+        <li>1. Click link below to test <b>GET</b> request on <b>text and image file</b>: <br><a href="hello_world.html">hello_world.html</a></li>
+        <br>
+        <li>2. Click button below to test <b>HEAD</b> request and show received header fields: <br><button onclick="headRequest()">http://127.0.0.1:8000/hello_world.html [HEAD]</button> </li>
+        response message: <span id="head-response"></span>
+    </ul>
+   
+    <p>To test <b>Response messages</b></p>
+    <ul>
+        <li>3. Click button below to test <b>400 Bad Request</b> response: <br><button onclick="badRequest()">http://127.0.0.1:8000 [DELETE]</button></li>
+        response message: <span id="400-response"></span>
+        <br>
+        <br>
+        <li>4. Click button below to test <b>404 Not Found</b> response: <br><button onclick="notFoundRequest()">http://127.0.0.1:8000/not-exist.html [GET]</button></li>
+        response message: <span id="404-response"></span>
+        <br>
+        <br>
+        <li>5. Click button below to test <b>304 Not Modified</b> response: <br><button onclick="notModifiedRequest()">http://127.0.0.1:8000/hello_world.html [GET]</button></li>
+        <b>If-Modified-Since</b> is set as <b>'Wed, 19 Apr 2023 12:00:00 GMT'</b>
+        <br>
+        response message: <span id="304-response"></span>
+    </ul>
+
+</body> 
+<script>
+    function headRequest() {
+        const headers = new Headers();
+        headers.append('If-Modified-Since', 'Fri, 30 Aug 2024 12:00:00 GMT'); // 2023-04-07 11:00:00 HKT
+        fetch('http://127.0.0.1:8000/hello_world.html', { method: 'HEAD', headers: headers})
+        .then(response => {
+            console.log(response);
+            if (response.status == 200 || response.status == 304) {
+                document.getElementById('head-response').innerHTML = '<b>Status:'+response.status+' '+response.statusText+'; Type:'+response.headers.get('Content-Type')+'; Length: '+response.headers.get('Content-Length')+'; Last-Modified: '+response.headers.get('Last-Modified')+'</b>';
+            }
+        })
+        .catch(err => {
+            console.error(err);
+        });
+    }
+
+    function badRequest() { 
+        fetch('http://127.0.0.1:8000/', { method: 'POST' })
+        .then(response => {
+            console.log(response); 
+            if (response.status == 400) {
+                document.getElementById('400-response').innerHTML = '<b>Status:'+response.status+' '+response.statusText+'</b>';
+            }
+        })
+        .catch(err => {
+            console.error(err);
+        });
+
+    }
+
+    function notFoundRequest() {
+        fetch('http://127.0.0.1:8000/not-exist.html', { method: 'GET' })
+        .then(response => {
+            console.log(response);    
+            if (response.status == 404) {
+                document.getElementById('404-response').innerHTML = '<b>Status:'+response.status+' '+response.statusText+'</b>';
+            }
+        })
+        .catch(err => {
+            console.error(err);
+        });
+    }
+
+    function notModifiedRequest() {
+        const headers = new Headers();
+        headers.append('If-Modified-Since', 'Wed, 30 Aug 2023 12:00:00 GMT'); // 2023-04-07 11:00:00 HKT 
+        fetch('http://127.0.0.1:8000/hello_world.html', { method: 'GET', headers: headers})
+        .then(response => {
+            console.log(response);
+            if (response.status == 304 || response.status == 200) {
+                document.getElementById('304-response').innerHTML = '<b>Status:'+response.status+' '+response.statusText+'; Type:'+response.headers.get('Content-Type')+'; Length: '+response.headers.get('Content-Length')+'; Last-Modified: '+response.headers.get('Last-Modified')+'</b>'; 
+            }
+        })
+        .catch(err => {
+            console.error(err);
+        });
+    }
+</script>
+</html>

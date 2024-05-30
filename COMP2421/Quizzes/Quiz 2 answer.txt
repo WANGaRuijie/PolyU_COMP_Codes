@@ -1,0 +1,34 @@
+
+
+
+--------  1 pt for each question
+
+
+
+Quiz 2, seesion 1
+
+1. 0x40000008
+2. Push the content into stack
+3. 0
+4. sub
+5. A+AB = A
+6. A OR B = ( A NAND A ) NAND ( B NAND B )
+7. A + B' + C + D'
+8. F=A'D+BD+BC+ACD'+A'B'C'
+
+
+
+
+
+Quiz 2, seesion 2
+
+1. 0x40000208
+2. Push the content into stack
+3. 1
+4. lw
+5. A(A+B) = A
+6. A OR B = ( A NAND B ) NAND ( A NAND B )
+7. A'+B+C'+D
+8. F=A'D+BD+BC+ACD'+A'B'C'
+
+
