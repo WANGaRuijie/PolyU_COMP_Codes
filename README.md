@@ -1,6 +1,7 @@
-# PolyU_COMP_Codes
+# PolyU_COMP_Codes 
+This is an archive for (almost) all assignments and projects I have done for PolyU COMP subjects
+Wish you all the best
 
-Assignments and projects of PolyU COMP subjects
-
-WANG Ruijie 
-ruijie.wang@connect.polyu.hk
+Wang Ruijie 
+Homepage: wangaruijie.github.io
+Email: ruijie.wang@connect.polyu.hk
