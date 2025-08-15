@@ -1,0 +1,74 @@
+PuTTY:
+
+Choose serial connection; 
+Serial line: COM3;
+Speed: 115200;
+Click Open;
+
+
+In the PuTTY window:
+
+Back to the root directory (/)
+cd ./mnt/nfs
+(use ipconfig -a to see the ip address of the embedded computer eth0)
+mount -t nfs 192.168.1.1:/home/comp3438/arm-board /mnt/nfs -o nolock
+cd ..
+cd ./nfs 
+Check if succeeds
+
+
+Go back to Linux
+
+
+Download
+
+firefox
+enter blackboard comp3438 contents week9 Download the demo file
+cd ./Downloads
+unzip "helloworld(1).zip"
+cd ./helloworld
+
+cp helloworld_driver.c ../../arm-board/linux-3.0.8/drivers/char
+cp Kconfig and Makefie as well
+cp helloworld_user.c ../../arm-board
+
+cd to the char directory, ensure the source code, Makefile, and Kconfig has already been copied
+(sudo Bash)
+chmod a-x Makefile
+chmod a-x Kconfig
+chmod a-x helloworld_driver.c
+chown comp3438:comp3438 helloworld_driver.c
+(exit)
+
+change to directory linux-3.0.8
+make menuconfig
+choose Device Drivers - Character devices - The hello world char driver (NEW)
+Press M
+Press tab to exit and YES
+make
+
+cd to arm-board
+arm-linux-gcc -o helloworld_user helloworld_user.c
+
+
+Go back to PuTTY
+cd to mnt/nfs/linux-3.0.8/drivers/char
+
+(lsmod: modules installed already)
+insmod helloworld_driver.ko (message printed is from init printk)
+
+cd to nfs
+(mknod is used for creating block or character special files)
+mknod /dev/helloworld c 250 1
+
+ls -l /dev ｜ grep 'helloworld' to find if installed
+./helloworld_user
+(printk has higher priority)
+
+If no permission, chmod 777 /dev/helloworld
+
+
+Unload
+
+rm /dev/helloworld
+rmmod helloworld_driver (__exit function executes)

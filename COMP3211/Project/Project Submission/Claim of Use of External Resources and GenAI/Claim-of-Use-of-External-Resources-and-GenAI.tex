@@ -1,0 +1,47 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{indentfirst}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{array}
+\geometry{left=3cm, right=3cm, top=2cm, bottom=2cm}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+\setlength{\parindent}{4em}
+
+\title{\textbf{Claim of Use of External Resources and GenAI} \\ {\textbf{Command-line-based Monopoly Game}}\\ {\large PolyU COMP3211 Software Engineering Project, Fall 2024}}
+\author{\large Group 24}
+\date{\today}
+
+\begin{document}
+
+\maketitle{}
+
+\section{External Resources}
+
+The \texttt{Color} class inside the View package of the source code is originated from
+this Stack Overflow post: \href{https://stackoverflow.com/questions/5762491/how-to-print-color-in-console-using-system-out-println}{How to print color in console using System.out.println?}. The class is used to colorize the text output in the console.
+
+The idea of using \texttt{bicks} for printing the game board is inspired by the this project: \href{https://mattsi98.github.io/posts/monopoly.html}{Terminal Based Monopoly}.
+However, the implementation of the \texttt{Brick} class and other visual elements class is our original work.
+
+\section{GenAI Tools}
+
+GitHub Copilot (AI pair programmer with GPT-4o) is widely used for \LaTeX\; programming and 
+content polishing throughout the deliverable documents of this project, including
+this claim, the Software Requirements Specification, the Developer Manual, and the Design Document.
+We used GitHub Copilot to assist in writing \LaTeX\; code for formatting, structuring, and ensuring consistency across all documents. The tool provided suggestions for section headings, table formatting, and citation management, which significantly improved our efficiency.
+To verify and improve the results produced by GitHub Copilot, we manually reviewed all the suggestions and cross-checked them with \LaTeX\; documentation and guidelines. We also conducted multiple rounds of proofreading and testing by compiling the documents to ensure there were no syntax errors or formatting issues. Any discrepancies or errors identified during this process were corrected manually to maintain the quality and accuracy of the documents.
+
+For the source code, GitHub Copilot is used to generate Java Doc-style comments for important methods and classes. 
+The tool provided suggestions for the description of the methods, parameters, and return values, which helped us to document the code effectively and maintain consistency across the project. 
+We manually reviewed and edited the generated comments to ensure they accurately reflected the functionality of the code and followed the Java Doc conventions. 
+By using GitHub Copilot, we were able to streamline the documentation process and improve the readability and maintainability of the codebase.
+
+Please note that NO code was directly generated and applied to the source code.
+GenAI tools were only used to assist in writing the documentation and comments.
+
+
+\end{document}

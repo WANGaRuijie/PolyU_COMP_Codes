@@ -1,0 +1,69 @@
+\contentsline {section}{\numberline {1}Preface}{1}{section.1}%
+\contentsline {section}{\numberline {2}Introduction}{2}{section.2}%
+\contentsline {section}{\numberline {3}Glossary}{2}{section.3}%
+\contentsline {paragraph}{CMG}{2}{section*.2}%
+\contentsline {paragraph}{The Gaming Procedures and the Game Board Design Procedures}{2}{section*.3}%
+\contentsline {paragraph}{Player}{2}{section*.4}%
+\contentsline {paragraph}{On Going Player and Bankrupt}{2}{section*.5}%
+\contentsline {paragraph}{Game Board Designer}{2}{section*.6}%
+\contentsline {paragraph}{Game Board}{2}{section*.7}%
+\contentsline {paragraph}{Game Board File}{3}{section*.8}%
+\contentsline {paragraph}{Game in Progress}{3}{section*.9}%
+\contentsline {paragraph}{Saved Game}{3}{section*.10}%
+\contentsline {paragraph}{Game Save (Game Save Files)}{3}{section*.11}%
+\contentsline {paragraph}{Rounds and Turns}{3}{section*.12}%
+\contentsline {paragraph}{Properties}{3}{section*.13}%
+\contentsline {paragraph}{Property Price and Rent}{3}{section*.14}%
+\contentsline {paragraph}{GO}{3}{section*.15}%
+\contentsline {paragraph}{Income Tax}{3}{section*.16}%
+\contentsline {paragraph}{Chance}{3}{section*.17}%
+\contentsline {paragraph}{Jail Visiting}{3}{section*.18}%
+\contentsline {paragraph}{Go to Jail}{3}{section*.19}%
+\contentsline {paragraph}{Jailing}{3}{section*.20}%
+\contentsline {paragraph}{Free Parking}{4}{section*.21}%
+\contentsline {section}{\numberline {4}User Requirements Definition}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Player Use Cases}{4}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Game Board Designer Use Cases}{4}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}User Story 1}{4}{subsection.4.3}%
+\contentsline {paragraph}{Definition}{4}{section*.24}%
+\contentsline {paragraph}{Non-functional Requirements}{5}{section*.25}%
+\contentsline {subsection}{\numberline {4.4}User Story 2}{5}{subsection.4.4}%
+\contentsline {paragraph}{Definition}{5}{section*.26}%
+\contentsline {paragraph}{Non-functional Requirements}{5}{section*.27}%
+\contentsline {subsection}{\numberline {4.5}User Story 3}{5}{subsection.4.5}%
+\contentsline {paragraph}{Definition}{5}{section*.28}%
+\contentsline {paragraph}{Non-functional Requirements}{5}{section*.29}%
+\contentsline {subsection}{\numberline {4.6}User Story 4}{5}{subsection.4.6}%
+\contentsline {paragraph}{Definition}{5}{section*.30}%
+\contentsline {paragraph}{Non-functional Requirements}{5}{section*.31}%
+\contentsline {subsection}{\numberline {4.7}User Story 5}{5}{subsection.4.7}%
+\contentsline {paragraph}{Definition}{5}{section*.32}%
+\contentsline {paragraph}{Non-functional Requirements}{5}{section*.33}%
+\contentsline {subsection}{\numberline {4.8}User Story 6}{5}{subsection.4.8}%
+\contentsline {paragraph}{Definition}{5}{section*.34}%
+\contentsline {paragraph}{Non-functional Requirements}{5}{section*.35}%
+\contentsline {subsection}{\numberline {4.9}User Story 7}{6}{subsection.4.9}%
+\contentsline {paragraph}{Definition}{6}{section*.36}%
+\contentsline {paragraph}{Non-functional Requirements}{6}{section*.37}%
+\contentsline {subsection}{\numberline {4.10}User Story 8}{6}{subsection.4.10}%
+\contentsline {paragraph}{Definition}{6}{section*.38}%
+\contentsline {paragraph}{Non-functional Requirements}{6}{section*.39}%
+\contentsline {subsection}{\numberline {4.11}User Story 9}{6}{subsection.4.11}%
+\contentsline {paragraph}{Definition}{6}{section*.40}%
+\contentsline {paragraph}{Non-functional Requirements}{6}{section*.41}%
+\contentsline {subsection}{\numberline {4.12}User Story 10}{6}{subsection.4.12}%
+\contentsline {paragraph}{Definition}{6}{section*.42}%
+\contentsline {paragraph}{Non-functional Requirements}{6}{section*.43}%
+\contentsline {section}{\numberline {5}System Architecture}{6}{section.5}%
+\contentsline {section}{\numberline {6}System Requirements Specification}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}User Story 1}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}User Story 2}{9}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}User Story 3}{11}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}User Story 4}{12}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}User Story 5}{14}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}User Story 6}{15}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.7}User Story 7}{16}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.8}User Story 8}{17}{subsection.6.8}%
+\contentsline {subsection}{\numberline {6.9}User Story 9}{19}{subsection.6.9}%
+\contentsline {subsection}{\numberline {6.10}User Story 10}{20}{subsection.6.10}%
+\contentsline {subsection}{\numberline {6.11}Other Essential Functional Requirements}{20}{subsection.6.11}%

@@ -1,0 +1,52 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{array}
+\geometry{left=3cm, right=3cm, top=2cm, bottom=2cm}
+\usepackage[colorlinks,linkcolor=blue]{hyperref}
+
+\title{\textbf{Developer Manual} \\ {\textbf{Command-line-based Monopoly Game}}\\ {\large PolyU COMP3211 Software Engineering Project, Fall 2024}}
+\author{\large Group 24}
+\date{\today}
+
+\begin{document}
+
+\maketitle{}
+
+To run the Command-line-based Monopoly Game, the following steps are required:
+\begin{enumerate}
+    \item Download the project to your local machine running MacOS 12 or later, Windows 10 or later, Ubuntu 20.04 or later, or Debian 11 or later.
+    \item Make sure the Java Development Kit version 21 or later has been installed.
+    \item Open the project in JetBrains IntelliJ IDEA version 2022.3 or later.
+    \item Set the Java language level to the SDK default (that supports the \texttt{switch} block) and the project SDK to 21.
+    \item Ensure that the jar files in the \texttt{src/lib} directory are added to the project's dependencies or included as external libraries.
+    \item Set the \texttt{src} directory as the source directory and the \texttt{test} directory as the test source directory.
+    \item Run the main method in the \texttt{CommandLineBasedMonopolyGame} class inside the controller package in the IDE terminal.
+    \item Please note that other operating systems, IDEs, terminals, or Java versions are not guaranteed to work.
+\end{enumerate}
+
+\vspace{0.5cm}
+
+To build the Command-line-based Monopoly Game, the following steps are required:
+\begin{enumerate}
+    \item Open this project in JetBrains IntelliJ IDEA with the required settings above.
+    \item Navigate to the \texttt{Build} menu and select \texttt{Build Project}.
+    \item Ensure that there are no errors in the build process.
+    \item If the build is successful, the compiled classes will be located in the \texttt{out} directory.
+\end{enumerate}
+
+\vspace{0.5cm}
+
+To run the project in debug mode, the following steps are required:
+\begin{enumerate}
+    \item Open the project in JetBrains IntelliJ IDEA with the required settings above.
+    \item Set breakpoints in the code where you want to pause the execution.
+    \item Run the main method in the \texttt{CommandLineBasedMonopolyGame} class inside the controller package in debug mode.
+    \item The program will pause at the breakpoints, and you can inspect the variables and step through the code.
+\end{enumerate}
+
+\end{document}
