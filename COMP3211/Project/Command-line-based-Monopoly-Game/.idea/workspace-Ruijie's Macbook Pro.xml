@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c117385c-97a3-4196-944d-cfffdbd5cbbf" name="更改" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2oZFn5zpd5btShiJ3kdit5E5jIQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Apple/Library/CloudStorage/OneDrive-TheHongKongPolytechnicUniversity/COMP3211 Software Engineering/Terminal-Based-Monopoly-Game&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;E:/JavaProjects/Terminal-Based-Monopoly-Game/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/data/gameboard" />
+      <recent name="$PROJECT_DIR$/src/data" />
+      <recent name="$PROJECT_DIR$/src/controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="应用程序.TerminalBasedMonopolyGame">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Terminal-Based-Monopoly-Game" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TerminalBasedMonopolyGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.TerminalBasedMonopolyGame" />
+      <module name="Terminal-Based-Monopoly-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.TerminalBasedMonopolyGame" />
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c117385c-97a3-4196-944d-cfffdbd5cbbf" name="更改" comment="" />
+      <created>1731069358145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731069358145</updated>
+      <workItem from="1731069359146" duration="1317000" />
+      <workItem from="1731070699240" duration="6795000" />
+      <workItem from="1731127850948" duration="148000" />
+      <workItem from="1731128119885" duration="8712000" />
+      <workItem from="1731149059499" duration="14243000" />
+      <workItem from="1731164115875" duration="344000" />
+      <workItem from="1731212844610" duration="15991000" />
+      <workItem from="1731237111479" duration="1528000" />
+      <workItem from="1731320773564" duration="35000" />
+      <workItem from="1731320840031" duration="16714000" />
+      <workItem from="1731479736866" duration="1390000" />
+      <workItem from="1731510899274" duration="1132000" />
+      <workItem from="1731512441341" duration="411000" />
+      <workItem from="1731553855763" duration="11211000" />
+      <workItem from="1731566639625" duration="1988000" />
+      <workItem from="1731584482108" duration="11861000" />
+      <workItem from="1731602196828" duration="950000" />
+      <workItem from="1731654697514" duration="163000" />
+      <workItem from="1731674206055" duration="163000" />
+      <workItem from="1731674450662" duration="2756000" />
+      <workItem from="1731679181624" duration="191000" />
+      <workItem from="1731763603481" duration="78000" />
+      <workItem from="1731763772065" duration="3508000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
